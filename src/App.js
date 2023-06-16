@@ -16,6 +16,12 @@ const TASKS = [
 ];
 
 const App = () => {
+
+  const [stacyState, setStacyState] = React.useState(TASKS)
+  const deleteTask = () => {
+
+  }
+
   return (
     <div className="App">
       <header className="App-header">
